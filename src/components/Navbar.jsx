@@ -75,7 +75,7 @@ export default function Navbar() {
             {/* <!-- Nav Bar Start --> */}
             <div className="navbar navbar-expand-lg bg-dark navbar-dark">
                 <div className="container-fluid">
-                    <Link to="/" className="navbar-brand">SANJIVANI</Link>
+                    <Link to="/" className="navbar-brand">Andakshi Aashram</Link>
                     <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -84,8 +84,8 @@ export default function Navbar() {
                         <div className="navbar-nav ml-auto">
                             <Link to="/" className={`nav-item nav-link ${path === '/' ? "active" : ""}`}>Home</Link>
                             <Link to="/about" className={`nav-item nav-link ${path === '/about' ? "active" : ""}`}>About</Link>
-                            <Link to="/event" className={`nav-item nav-link ${path === '/event' ? "active" : ""}`}>Events</Link>
-                            <div className="nav-item dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
+                            {<Link to="/event" className={`nav-item nav-link ${path === '/event' ? "active" : ""}`}>Events</Link>}
+                           {/* <div className="nav-item dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
                                 <Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Pages</Link>
                                 <div className={dropdownOpen ? "dropdown-menu show" : "dropdown-menu"}>
                                     <Link to="/" className="dropdown-item">Detail Page</Link>
@@ -95,8 +95,8 @@ export default function Navbar() {
                                     <hr className='dropdown-divider' />
                                     <Link to="/donate" className="dropdown-item">Donate Now</Link>
                                 </div>
-                            </div>
-                            <Link to="/contact" className={`nav-item nav-link ${path === '/contact' ? "active" : ""}`}>Contact</Link>
+                            </div>*/}
+                            {/*<Link to="/contact" className={`nav-item nav-link ${path === '/contact' ? "active" : ""}`}>Contact</Link>*/}
                         </div>
                     </div>
                 </div>

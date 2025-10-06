@@ -20,7 +20,7 @@ export default function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6">
+                   {/* <div className="col-lg-3 col-md-6">
                         <div className="footer-link">
                             <h2>Popular Links</h2>
                             <a href="/about">About Us</a>
@@ -29,8 +29,8 @@ export default function Footer() {
                             <a href="/event">Upcoming Events</a>
                             <a href="#">Latest Blog</a>
                         </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
+                    </div>*/}
+                   {/* <div className="col-lg-3 col-md-6">
                         <div className="footer-link">
                             <h2>Useful Links</h2>
                             <a href="#">Terms of use</a>
@@ -39,8 +39,8 @@ export default function Footer() {
                             <a href="#">Help</a>
                             <a href="#">FQAs</a>
                         </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6">
+                    </div>*/}
+                   {/* <div className="col-lg-3 col-md-6">
                         <div className="footer-newsletter">
                             <h2>Newsletter</h2>
                             <form name='NewsLetter'>
@@ -49,7 +49,7 @@ export default function Footer() {
                                 <h6>Don't worry, we don't spam!</h6>
                             </form>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
             <div className="container copyright">
