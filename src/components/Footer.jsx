@@ -55,10 +55,10 @@ export default function Footer() {
             <div className="container copyright">
                 <div className="row">
                     <div className="col-md-6">
-                        <p>&copy; <a href="#">THE SANJIVANI NGO</a> | 2024, All Right Reserved.</p>
+                        <p>&copy; <a href="#">Aadhankshi Ashram</a> | 2024, All Right Reserved.</p>
                     </div>
                     <div className="col-md-6">
-                        <p>Designed By <a href="https://www.linkedin.com/in/bhavesh-patil-92b7aa22a">TY_CS_C_52, VIT, Pune</a></p>
+                        <p>Designed By <a href="https://sidkulkarni.com/">sidkulkarni.com</a></p>
                     </div>
                 </div>
             </div>
