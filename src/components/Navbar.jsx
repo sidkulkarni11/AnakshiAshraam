@@ -58,7 +58,6 @@ export default function Navbar() {
                         <div className="col-md-4">
                             <div className="top-bar-right">
                                 <div className="social">
-                                    <a href="https://twitter.com/vit_socials"><i className="fab fa-x-twitter"></i></a>
                                     <a href="https://www.facebook.com/vitsocials"><i className="fab fa-facebook-f"></i></a>
                                     <a href="https://www.instagram.com/vitsocials/"><i className="fab fa-instagram"></i></a>
                                     <a href="https://www.youtube.com/channel/UCJnaNm8Ns08rUIhsdFM2fhA"><i className="fab fa-youtube"></i></a>

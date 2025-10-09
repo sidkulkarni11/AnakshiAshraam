@@ -12,7 +12,6 @@ export default function Footer() {
                             <a href="tel:+91-7385223242"><p><i className="fa fa-phone"></i>+91-7385223242</p></a>
                             <a href="mailto:sanjivani.vitswd@vit.edu"><p><i className="fa fa-envelope"></i>sanjivani.vitswd@vit.edu</p></a>
                             <div className="footer-social">
-                                <a className="btn btn-custom" href="https://twitter.com/vit_socials"><i className="fab fa-x-twitter"></i></a>
                                 <a className="btn btn-custom" href="https://www.facebook.com/vitsocials"><i className="fab fa-facebook-f"></i></a>
                                 <a className="btn btn-custom" href="https://www.instagram.com/vitsocials/"><i className="fab fa-instagram"></i></a>
                                 <a className="btn btn-custom" href="https://www.youtube.com/channel/UCJnaNm8Ns08rUIhsdFM2fhA"><i className="fab fa-youtube"></i></a>

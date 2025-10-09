@@ -22,7 +22,9 @@ export default function Home() {
             </div>
             <Landing />
             <Initiatives />
+{/*
             <Funds />
+*/}
             <ContactForm />
             <Footer />
             <BackToTop />

@@ -24,7 +24,7 @@
       border: 1px solid yellow;
       height: 1px;
       margin-right: 0.5em;
-      width: 60%;
+      width: 40%;
     }
     h4 {
       font-size: 1.35rem;
@@ -39,6 +39,7 @@
     .caption1 {
       display: flex;
       align-items: center;
+      gap: 8px; /* adds spacing between line and text */
     }
     .caption2 {
       p {

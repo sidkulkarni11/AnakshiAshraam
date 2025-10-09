@@ -9,11 +9,11 @@ export default function Landing() {
                 <span className="left">
                     <div className="caption1">
                         <hr />
-                        <h4>WE ARE SANJIVANI NGO</h4>
+                        <h4>WE ARE Andakshi Asharam NGO</h4>
                     </div>
                     <div className="titles">
                         <div className="caption2">
-                            <p>At <span>Sanjivani,</span> we work towards the betterment of our <span>world</span> </p>
+                            <p>At <span>Aadakshi Asharam,</span> we work towards the betterment of our <span>world</span> </p>
                         </div>
                         <div className="caption3">
                             <p>Bring out the change in society by spreading hands to help the unprivileged children and other backward communities.</p>
