@@ -9,7 +9,7 @@
     left: 0;
     z-index: 3;
     border-bottom: 1px solid rgba(255, 255, 255, .3);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #20212B; /* solid dark background */
 }
 
 .top-bar .top-bar-left {
@@ -152,27 +152,29 @@
         width: 100%;
         top: 45px;
         padding: 20px 60px;
-        background: transparent !important;
+        background: #20212B !important; /* ✅ solid color, no transparency */
         border-bottom: 1px solid rgba(255, 255, 255, .3);
         z-index: 9;
     }
-    
+
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: #20212B !important;
         border-bottom: none;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
-    
+
     .page .navbar {
         background: #20212B !important;
     }
-    
+
     .navbar a.nav-link {
         padding: 8px 15px;
         font-size: 16px;
         letter-spacing: 1px;
     }
 }
+
 
 @media (max-width: 991.98px) {   
     .navbar .navbar-brand {

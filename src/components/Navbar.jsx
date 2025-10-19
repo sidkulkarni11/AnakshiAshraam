@@ -55,7 +55,7 @@ export default function Navbar() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4">
+                       {/* <div className="col-md-4">
                             <div className="top-bar-right">
                                 <div className="social">
                                     <a href="https://www.facebook.com/vitsocials"><i className="fab fa-facebook-f"></i></a>
@@ -65,7 +65,7 @@ export default function Navbar() {
                                 </div>
                                 {auth.length>0 && <button onClick={()=>{(auth==="USER"?localStorage.removeItem("NGO"):localStorage.removeItem("ADMIN_NGO")); setAuth(""); navigate("/");}} type='button' className='btn btn-outline-danger'>LOGOUT {auth}</button>}
                             </div>
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
             </div>
