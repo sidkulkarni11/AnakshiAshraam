@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <!-- Force NO favicon by using a tiny transparent data URL -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E" />
+  <!-- Also neutralize Apple touch icon (iOS) -->
+  <link rel="apple-touch-icon" href="data:;base64,iVBORw0KGgo=" />
+
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Sanjivani NGO website to raise donations. Created by Bhavesh Patil. REACT, Spring Boot." />
 
-  <!-- App icons -->
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!-- Keep manifest if you need PWA, but note: its icons are used only when 'installed' as an app -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
   <!-- Bootstrap 5 ONLY (CSS) -->
@@ -33,7 +36,7 @@
           rel="stylesheet"
   />
 
-  <title>Aandakshi Asharam</title>
+  <title>Andakshi Aashram</title>
 </head>
 <body>
 <div id="root"></div>

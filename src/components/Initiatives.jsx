@@ -1,8 +1,8 @@
 import React from "react";
-import sudhaar from "../assets/Initiatives/Sudhaar.png";
-import gyaan from "../assets/Initiatives/Gyaan.png";
-import nirmaan from "../assets/Initiatives/Nirmaan.png";
-import gogreen from "../assets/Initiatives/Go-Green.png";
+import sudhaar from "../assets/Initiatives/aandakshi.jpeg";
+import gyaan from "../assets/Initiatives/parkoutings.jpeg";
+import nirmaan from "../assets/Initiatives/cooking.jpeg";
+import gogreen from "../assets/Initiatives/mall.jpeg";
 import muskaan from "../assets/Initiatives/Muskaan.png";
 import "../css/initiatives.css";
 
@@ -21,16 +21,6 @@ const initiatives = [
     title: "Nirmaan",
     desc: "A project that promotes rural development, infrastructure improvement, and community building.",
     img: nirmaan,
-  },
-  {
-    title: "Go Green",
-    desc: "Encouraging eco-friendly habits, cleanliness drives, and plantation programs for a sustainable future.",
-    img: gogreen,
-  },
-  {
-    title: "Muskaan",
-    desc: "Bringing smiles through health check-ups, food distribution, and emotional well-being initiatives.",
-    img: muskaan,
   },
 ];
 
