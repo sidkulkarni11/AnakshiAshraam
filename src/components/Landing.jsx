@@ -1,5 +1,5 @@
 import '../css/landing.css';
-import main from '../assets/LandImg.png';
+import main from '../assets/students.jpeg';
 import { useNavigate } from 'react-router-dom';
 
 export default function Landing() {

@@ -7,22 +7,23 @@ import muskaan from "../assets/Initiatives/Muskaan.png";
 import "../css/initiatives.css";
 
 const initiatives = [
-  {
-    title: "Sudhaar",
-    desc: "An initiative focused on rehabilitation, skill-building, and empowerment for marginalized communities.",
-    img: sudhaar,
-  },
-  {
-    title: "Gyaan",
-    desc: "A movement to spread education and awareness among children and youth in underprivileged areas.",
-    img: gyaan,
-  },
-  {
-    title: "Nirmaan",
-    desc: "A project that promotes rural development, infrastructure improvement, and community building.",
-    img: nirmaan,
-  },
+    {
+        title: "Picnic Day",
+        desc: "A fun outdoor trip to bring smiles and create happy memories.",
+        img: sudhaar,
+    },
+    {
+        title: "Park Visit",
+        desc: "A day of learning, laughter, and togetherness in nature.",
+        img: gyaan,
+    },
+    {
+        title: "Cooking Session",
+        desc: "An engaging activity where everyone enjoyed making and sharing food.",
+        img: nirmaan,
+    },
 ];
+
 
 const Initiatives = () => {
   return (
