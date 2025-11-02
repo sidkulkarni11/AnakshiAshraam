@@ -9,7 +9,6 @@ function ContactForm() {
         subject: '',
         message: ''
     });
-    //
     const [errors, setErrors] = useState({});
 
     const validateForm = () => {
@@ -50,29 +49,26 @@ function ContactForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (validateForm()) {
-            sendViaWhatsApp();
+            sendViaGmail();
         } else {
             document.getElementById("success").innerHTML = "";
         }
     };
 
-    const sendViaWhatsApp = () => {
-        const phoneNumber = "919876543210"; // <-- Replace with your NGO WhatsApp number (no + or spaces)
-        const message = `New Inquiry from Andakshi Asharam Website:
-Name: ${formData.name}
-Email: ${formData.email}
-Subject: ${formData.subject}
-Message: ${formData.message}`;
+    const sendViaGmail = () => {
+        const recipientEmail = "andakshiashram7@gmail.com";
+        const subject = encodeURIComponent(`New Inquiry from Andakshi Ashram: ${formData.subject}`);
+        const body = encodeURIComponent(
+            `Hello Andakshi Ashram Team,\n\nYou have received a new message:\n\n` +
+            `Name: ${formData.name}\nEmail: ${formData.email}\n\n` +
+            `Message:\n${formData.message}\n\nRegards,\n${formData.name}`
+        );
 
-        const encodedMessage = encodeURIComponent(message);
-        const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-        const whatsappURL = isMobile
-            ? `whatsapp://send?phone=${phoneNumber}&text=${encodedMessage}`
-            : `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+        const gmailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipientEmail}&su=${subject}&body=${body}`;
 
-        window.open(whatsappURL, "_blank", "noopener,noreferrer");
+        window.open(gmailURL, "_blank", "noopener,noreferrer");
 
-        document.getElementById("success").innerHTML = "✔ Redirecting to WhatsApp...";
+        document.getElementById("success").innerHTML = "✔ Redirecting to Gmail...";
         setFormData({ name: '', email: '', subject: '', message: '' });
     };
 
@@ -134,20 +130,20 @@ Message: ${formData.message}`;
                             </div>
 
                             <div className="control-group">
-                <textarea
-                    className="form-control"
-                    id="message"
-                    placeholder="Message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                ></textarea>
+                                <textarea
+                                    className="form-control"
+                                    id="message"
+                                    placeholder="Message"
+                                    value={formData.message}
+                                    onChange={handleChange}
+                                    required
+                                ></textarea>
                                 <p className="text-danger">{errors.message}</p>
                             </div>
 
                             <div>
                                 <button className="btn btn-custom" type="submit">
-                                    Send via WhatsApp
+                                    Send via Gmail
                                 </button>
                             </div>
                         </form>
