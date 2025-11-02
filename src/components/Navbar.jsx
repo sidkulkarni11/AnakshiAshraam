@@ -27,7 +27,9 @@ export default function Navbar() {
                 topBar.classList.remove("hide-top-bar");
             }
         }
+
         window.addEventListener("scroll", toggleStickyNavbar);
+        return () => window.removeEventListener("scroll", toggleStickyNavbar);
     }, []);
 
     return (
@@ -39,9 +41,8 @@ export default function Navbar() {
                         <div className="col-md-8">
                             <div className="top-bar-left">
                                 <div className="text">
-                                    <Link to="/admin">
+                                    <Link to="/admin" title="Admin Panel">
                                         <i
-                                            title="ADMIN"
                                             className="fa fa-solid fa-user-tie m-0"
                                             style={{ fontSize: "21px" }}
                                         />
@@ -49,14 +50,20 @@ export default function Navbar() {
                                 </div>
                                 <div className="text">
                                     <i className="fa fa-phone"></i>
-                                    <a href="tel:+91-7385223242">
-                                        <p>+91-7385223242</p>
+                                    <a href="tel:+918879152067">
+                                        <p>+91 8879152067</p>
+                                    </a>
+                                </div>
+                                <div className="text">
+                                    <i className="fa fa-phone"></i>
+                                    <a href="tel:+918879895919">
+                                        <p>+91 8879895919</p>
                                     </a>
                                 </div>
                                 <div className="text">
                                     <i className="fa fa-envelope"></i>
-                                    <a href="mailto:sanjivani.vitswd@vit.edu">
-                                        <p>sanjivani.vitswd@vit.edu</p>
+                                    <a href="mailto:andakshiashram7@gmail.com">
+                                        <p>andakshiashram7@gmail.com</p>
                                     </a>
                                 </div>
                             </div>
@@ -68,14 +75,17 @@ export default function Navbar() {
             {/* Nav Bar Start */}
             <div className="navbar navbar-expand-lg bg-dark navbar-dark">
                 <div className="container-fluid">
-                    <Link to="/" className="navbar-brand">
-                        Andakshi Aashram
+                    <Link to="/" className="navbar-brand" aria-label="Andakshi Ashram">
+                        Andakshi Ashram
                     </Link>
                     <button
                         type="button"
                         className="navbar-toggler"
                         data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
                     >
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -90,20 +100,17 @@ export default function Navbar() {
                             </Link>
                             <Link
                                 to="/about"
-                                className={`nav-item nav-link ${
-                                    path === "/about" ? "active" : ""
-                                }`}
+                                className={`nav-item nav-link ${path === "/about" ? "active" : ""}`}
                             >
                                 About
                             </Link>
                             <Link
                                 to="/event"
-                                className={`nav-item nav-link ${
-                                    path === "/event" ? "active" : ""
-                                }`}
+                                className={`nav-item nav-link ${path === "/event" ? "active" : ""}`}
                             >
                                 Events
                             </Link>
+
                         </div>
                     </div>
                 </div>
