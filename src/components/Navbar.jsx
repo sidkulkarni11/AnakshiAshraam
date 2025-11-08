@@ -62,8 +62,8 @@ export default function Navbar() {
                                 </div>
                                 <div className="text">
                                     <i className="fa fa-envelope"></i>
-                                    <a href="mailto:andakshiashram7@gmail.com">
-                                        <p>andakshiashram7@gmail.com</p>
+                                    <a href="mailto:Andhakshiashram7@gmail.com">
+                                        <p>Andhakshiashram7@gmail.com</p>
                                     </a>
                                 </div>
                             </div>
@@ -75,8 +75,8 @@ export default function Navbar() {
             {/* Nav Bar Start */}
             <div className="navbar navbar-expand-lg bg-dark navbar-dark">
                 <div className="container-fluid">
-                    <Link to="/" className="navbar-brand" aria-label="Andakshi Ashram">
-                        Andakshi Ashram
+                    <Link to="/" className="navbar-brand" aria-label="Andhakshi Ashram">
+                        Andhakshi Ashram
                     </Link>
                     <button
                         type="button"

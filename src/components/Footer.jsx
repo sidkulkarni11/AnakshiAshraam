@@ -25,8 +25,8 @@ export default function Footer() {
                             <a href="tel:+918879895919">
                                 <p><i className="fa fa-phone"></i>+91 8879895919</p>
                             </a>
-                            <a href="mailto:andakshiashram7@gmail.com">
-                                <p><i className="fa fa-envelope"></i>andakshiashram7@gmail.com</p>
+                            <a href="mailto:andhakshiashram7@gmail.com">
+                                <p><i className="fa fa-envelope"></i>Andhakshiashram7@gmail.com</p>
                             </a>
                             <div className="footer-social">
                                 {/* Future social media links can be added here */}
@@ -40,7 +40,7 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-md-6">
                         <p>
-                            &copy; <a href="#">Andakshi Ashram</a> | 2024, All Rights Reserved.
+                            &copy; <a href="#">Andhakshi Ashram</a> | 2024, All Rights Reserved.
                         </p>
                     </div>
                     <div className="col-md-6">

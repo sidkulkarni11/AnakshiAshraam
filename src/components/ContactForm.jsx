@@ -56,10 +56,10 @@ function ContactForm() {
     };
 
     const sendViaGmail = () => {
-        const recipientEmail = "andakshiashram7@gmail.com";
-        const subject = encodeURIComponent(`New Inquiry from Andakshi Ashram: ${formData.subject}`);
+        const recipientEmail = "Andhakshiashram7@gmail.com";
+        const subject = encodeURIComponent(`New Inquiry from Andhakshi Ashram: ${formData.subject}`);
         const body = encodeURIComponent(
-            `Hello Andakshi Ashram Team,\n\nYou have received a new message:\n\n` +
+            `Hello Andhakshi Ashram Team,\n\nYou have received a new message:\n\n` +
             `Name: ${formData.name}\nEmail: ${formData.email}\n\n` +
             `Message:\n${formData.message}\n\nRegards,\n${formData.name}`
         );

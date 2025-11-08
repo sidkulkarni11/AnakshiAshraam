@@ -12,10 +12,10 @@ export default function About() {
             <section className="about-ngo" style={{ padding: "60px 20px" }}>
                 <div className="container" style={{ maxWidth: "900px", margin: "0 auto" }}>
                     <h2 style={{ fontSize: "2rem", marginBottom: "20px", textAlign: "center" }}>
-                        About Andakshi Aashram
+                        About Andhakshi Aashram
                     </h2>
                     <p style={{ fontSize: "1.1rem", lineHeight: "1.6", marginBottom: "15px" }}>
-                        <strong>Andakshi Aashram</strong> is a non-profit organization
+                        <strong>Andhakshi Aashram</strong> is a non-profit organization
                         committed to uplifting underprivileged communities through education,
                         skill development, healthcare, and social welfare initiatives.
                     </p>
