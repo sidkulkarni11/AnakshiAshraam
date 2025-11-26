@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/AnakshiAshraam/static/css/main.6b01db11.css",
-    "main.js": "/AnakshiAshraam/static/js/main.e7ad919a.js",
-    "static/media/parkoutings.jpeg": "/AnakshiAshraam/static/media/parkoutings.808db61b287cb2989bec.jpeg",
-    "static/media/outing.jpeg": "/AnakshiAshraam/static/media/outing.9ecce943c7499854fd8e.jpeg",
-    "static/media/space.jpeg": "/AnakshiAshraam/static/media/space.d92f7384d0afdd187d42.jpeg",
-    "static/media/cooking.jpeg": "/AnakshiAshraam/static/media/cooking.36790faff57175ceb526.jpeg",
-    "static/media/students.jpeg": "/AnakshiAshraam/static/media/students.81c7b49a05888fd9a53e.jpeg",
-    "static/media/aandakshi.jpeg": "/AnakshiAshraam/static/media/aandakshi.0c93ed2794ba5f6cc5a3.jpeg",
-    "static/media/Muskaan.png": "/AnakshiAshraam/static/media/Muskaan.eef819002b6d0be79dc4.png",
-    "static/media/beach.jpeg": "/AnakshiAshraam/static/media/beach.902630aedb74039993b2.jpeg",
-    "static/media/sunrise.jpg": "/AnakshiAshraam/static/media/sunrise.dd82eb88a92f782bbe19.jpg",
-    "static/media/mall.jpeg": "/AnakshiAshraam/static/media/mall.072138d010da4eb7edad.jpeg",
-    "static/media/facts.jpg": "/AnakshiAshraam/static/media/facts.68283964d92e94d94091.jpg",
-    "static/media/donate.jpg": "/AnakshiAshraam/static/media/donate.3b427f02e6a92dc18552.jpg",
-    "index.html": "/AnakshiAshraam/index.html",
-    "main.6b01db11.css.map": "/AnakshiAshraam/static/css/main.6b01db11.css.map",
-    "main.e7ad919a.js.map": "/AnakshiAshraam/static/js/main.e7ad919a.js.map"
+    "main.css": "/static/css/main.7ea04f7d.css",
+    "main.js": "/static/js/main.309ddb55.js",
+    "static/media/parkoutings.jpeg": "/static/media/parkoutings.808db61b287cb2989bec.jpeg",
+    "static/media/outing.jpeg": "/static/media/outing.9ecce943c7499854fd8e.jpeg",
+    "static/media/space.jpeg": "/static/media/space.d92f7384d0afdd187d42.jpeg",
+    "static/media/cooking.jpeg": "/static/media/cooking.36790faff57175ceb526.jpeg",
+    "static/media/students.jpeg": "/static/media/students.81c7b49a05888fd9a53e.jpeg",
+    "static/media/aandakshi.jpeg": "/static/media/aandakshi.0c93ed2794ba5f6cc5a3.jpeg",
+    "static/media/Muskaan.png": "/static/media/Muskaan.eef819002b6d0be79dc4.png",
+    "static/media/beach.jpeg": "/static/media/beach.902630aedb74039993b2.jpeg",
+    "static/media/sunrise.jpg": "/static/media/sunrise.dd82eb88a92f782bbe19.jpg",
+    "static/media/mall.jpeg": "/static/media/mall.072138d010da4eb7edad.jpeg",
+    "static/media/facts.jpg": "/static/media/facts.68283964d92e94d94091.jpg",
+    "static/media/donate.jpg": "/static/media/donate.3b427f02e6a92dc18552.jpg",
+    "index.html": "/index.html",
+    "main.7ea04f7d.css.map": "/static/css/main.7ea04f7d.css.map",
+    "main.309ddb55.js.map": "/static/js/main.309ddb55.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b01db11.css",
-    "static/js/main.e7ad919a.js"
+    "static/css/main.7ea04f7d.css",
+    "static/js/main.309ddb55.js"
   ]
 }
