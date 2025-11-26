@@ -8,28 +8,37 @@ export default function Footer() {
                     <div className="col-lg-3 col-md-6">
                         <div className="footer-contact">
                             <h2>Contact Us</h2>
+
                             <a
-                                href="https://www.google.com/maps/dir//Ahead+of,+ANHERI+RECREATION+CLUB,+37,+Gilbert+Hill+Road,+Near,+Bhavans+College+Rd,+Andheri+(W,+Mumbai,+Maharashtra+400058/@19.1233433,72.7562507,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3be7c9d9c4056c8f:0xf2f3315296470c32!2m2!1d72.8386524!2d19.1233616?entry=ttu"
+                                href="https://www.google.com/maps/dir//Ahead+of,+ANHERI+RECREATION+CLUB,+37,+Gilbert+Hill+Road,+Near,+Bhavans+College+Rd,+Andheri+(W,+Mumbai,+Maharashtra+400058"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 <p>
                                     <i className="fa fa-map-marker-alt"></i>
-                                    2nd Floor, Andhakshi Ashram <br/>
-                                    Near Bhavans College Road<br/>
-                                    Andheri (West), Mumbai – 400058                                </p>
+                                    2nd Floor, Andhakshi Ashram <br />
+                                    Near Bhavans College Road <br />
+                                    Andheri (West), Mumbai – 400058
+                                </p>
                             </a>
+
                             <a href="tel:+918879152067">
-                                <p><i className="fa fa-phone"></i>+91 8879152067</p>
+                                <p><i className="fa fa-phone"></i> +91 8879152067</p>
                             </a>
                             <a href="tel:+918879895919">
-                                <p><i className="fa fa-phone"></i>+91 8879895919</p>
+                                <p><i className="fa fa-phone"></i> +91 8879895919</p>
                             </a>
-                            <a href="mailto:andhakshiashram7@gmail.com">
-                                <p><i className="fa fa-envelope"></i>Andhakshiashram7@gmail.com</p>
+
+                            {/* ✅ Updated Email */}
+                            <a href="mailto:info@andhakshiashram.org">
+                                <p>
+                                    <i className="fa fa-envelope"></i>
+                                    info@andhakshiashram.org
+                                </p>
                             </a>
+
                             <div className="footer-social">
-                                {/* Future social media links can be added here */}
+                                {/* Future social media links */}
                             </div>
                         </div>
                     </div>

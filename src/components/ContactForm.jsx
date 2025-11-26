@@ -56,7 +56,9 @@ function ContactForm() {
     };
 
     const sendViaGmail = () => {
-        const recipientEmail = "Andhakshiashram7@gmail.com";
+        // ✅ Updated Email ID
+        const recipientEmail = "info@andhakshiashram.org";
+
         const subject = encodeURIComponent(`New Inquiry from Andhakshi Ashram: ${formData.subject}`);
         const body = encodeURIComponent(
             `Hello Andhakshi Ashram Team,\n\nYou have received a new message:\n\n` +

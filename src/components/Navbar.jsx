@@ -48,24 +48,29 @@ export default function Navbar() {
                                         />
                                     </Link>
                                 </div>
+
                                 <div className="text">
                                     <i className="fa fa-phone"></i>
                                     <a href="tel:+918879152067">
                                         <p>+91 8879152067</p>
                                     </a>
                                 </div>
+
                                 <div className="text">
                                     <i className="fa fa-phone"></i>
                                     <a href="tel:+918879895919">
                                         <p>+91 8879895919</p>
                                     </a>
                                 </div>
+
+                                {/* ✅ Updated Email */}
                                 <div className="text">
                                     <i className="fa fa-envelope"></i>
-                                    <a href="mailto:Andhakshiashram7@gmail.com">
-                                        <p>Andhakshiashram7@gmail.com</p>
+                                    <a href="mailto:info@andhakshiashram.org">
+                                        <p>info@andhakshiashram.org</p>
                                     </a>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -98,12 +103,14 @@ export default function Navbar() {
                             >
                                 Home
                             </Link>
+
                             <Link
                                 to="/about"
                                 className={`nav-item nav-link ${path === "/about" ? "active" : ""}`}
                             >
                                 About
                             </Link>
+
                             <Link
                                 to="/event"
                                 className={`nav-item nav-link ${path === "/event" ? "active" : ""}`}
