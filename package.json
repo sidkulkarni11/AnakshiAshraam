@@ -1,15 +1,11 @@
 {
   "name": "Sanjivini",
   "version": "1.0.0",
-  "homepage": "https://sidkulkarni11.github.io/AnakshiAshraam",
-  "description": "",
-  "main": "index.js",
+  "homepage": "https://andhakshiaashram.org",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

@@ -15,9 +15,9 @@ export default function Footer() {
                             >
                                 <p>
                                     <i className="fa fa-map-marker-alt"></i>
-                                    Ahead of Andheri Recreation Club, 37 Gilbert Hill Road,<br />
-                                    Near Bhavans College Road, Andheri (W), Mumbai – 400058
-                                </p>
+                                    2nd Floor, Andhakshi Ashram <br/>
+                                    Near Bhavans College Road<br/>
+                                    Andheri (West), Mumbai – 400058                                </p>
                             </a>
                             <a href="tel:+918879152067">
                                 <p><i className="fa fa-phone"></i>+91 8879152067</p>
