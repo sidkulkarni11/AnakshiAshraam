@@ -39,7 +39,7 @@ export default function About() {
                         community-driven association dedicated to the{" "}
                         <strong>
                             relief, education, and empowerment of street and
-                            needy blind Indian females
+                            needy blind and destitute Indian females
                         </strong>.
                         Our work focuses on uplifting those who are often
                         overlooked—women who face the dual challenges of
@@ -55,7 +55,7 @@ export default function About() {
                     >
                         Our vision is simple yet powerful:{" "}
                         <strong>
-                            to empower blind females with dignity, independence,
+                            to empower blind and destitute females with dignity, independence,
                             and hope.
                         </strong>{" "}
                         We believe that every woman, regardless of her physical
@@ -80,7 +80,7 @@ export default function About() {
                     </p>
 
                     <p style={{ fontSize: "1.1rem", lineHeight: "1.6" }}>
-                        Together, we can create a society where blind women are
+                        Together, we can create a society where blind and destitute women are
                         not seen as dependents but as strong, skilled, and
                         empowered individuals. Your support helps us bring
                         visibility, opportunity, and dignity to those who need

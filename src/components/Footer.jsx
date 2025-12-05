@@ -18,6 +18,7 @@ export default function Footer() {
                                     <i className="fa fa-map-marker-alt"></i>
                                     2nd Floor, Andhakshi Ashram <br />
                                     Near Bhavans College Road <br />
+                                    Behind Recreation Club<br />
                                     Andheri (West), Mumbai – 400058
                                 </p>
                             </a>
